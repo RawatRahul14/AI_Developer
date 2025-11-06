@@ -9,6 +9,7 @@ sys.path.append(
 
 # === AWS Textract Pipeline ===
 from Task1.textract_pipeline import TextractPipeline
+from Task1.comprehend_pipeline import ComprehendPipeline
 
 # === Main Function Combineing both the pipelines ===
 def main():
@@ -16,6 +17,11 @@ def main():
         ## === Textract Pipeline ===
         text_pipeline = TextractPipeline()
         data_dict = text_pipeline.extract_data()
+
+        ## === Comprehend Pipeline ===
+        comprehend_pipeline = ComprehendPipeline()
+        comprehend_data = comprehend_pipeline.extract_info(data_dict = data_dict)
+        return comprehend_data
 
     except Exception as e:
         raise e

@@ -1,0 +1,2306 @@
+{
+    "image_1.jpg": {
+        "Entities": [
+            {
+                "Id": 35,
+                "BeginOffset": 4,
+                "EndOffset": 17,
+                "Score": 0.9995217323303223,
+                "Text": "Anupama Joshi",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "NAME",
+                "Traits": []
+            },
+            {
+                "Id": 36,
+                "BeginOffset": 124,
+                "EndOffset": 137,
+                "Score": 0.5159751772880554,
+                "Text": "Anupama Joshi",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "NAME",
+                "Traits": []
+            },
+            {
+                "Id": 37,
+                "BeginOffset": 164,
+                "EndOffset": 170,
+                "Score": 0.9986488223075867,
+                "Text": "9/5/25",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "DATE",
+                "Traits": []
+            },
+            {
+                "Id": 2,
+                "BeginOffset": 212,
+                "EndOffset": 217,
+                "Score": 0.6603351831436157,
+                "Text": "Vital",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 3,
+                "BeginOffset": 249,
+                "EndOffset": 251,
+                "Score": 0.7613970637321472,
+                "Text": "BP",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9584784507751465,
+                        "RelationshipScore": 0.8219892978668213,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 4,
+                        "BeginOffset": 253,
+                        "EndOffset": 256,
+                        "Text": "120",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.9201511740684509,
+                        "RelationshipScore": 0.8813977241516113,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 5,
+                        "BeginOffset": 253,
+                        "EndOffset": 259,
+                        "Text": "120/80",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 6,
+                "BeginOffset": 260,
+                "EndOffset": 264,
+                "Score": 0.9201511740684509,
+                "Text": "Temp",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.8617406487464905,
+                        "RelationshipScore": 0.6270833611488342,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 7,
+                        "BeginOffset": 267,
+                        "EndOffset": 273,
+                        "Text": "93.2°F",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 8,
+                "BeginOffset": 274,
+                "EndOffset": 279,
+                "Score": 0.8921527862548828,
+                "Text": "Pulse",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.8617406487464905,
+                        "RelationshipScore": 0.8386837244033813,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 9,
+                        "BeginOffset": 282,
+                        "EndOffset": 284,
+                        "Text": "70",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_UNIT",
+                        "Score": 0.7172441482543945,
+                        "RelationshipScore": 0.6795811653137207,
+                        "RelationshipType": "TEST_UNIT",
+                        "Id": 10,
+                        "BeginOffset": 285,
+                        "EndOffset": 288,
+                        "Text": "m'm",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 11,
+                "BeginOffset": 289,
+                "EndOffset": 293,
+                "Score": 0.8435389995574951,
+                "Text": "SPO2",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.8435389995574951,
+                        "RelationshipScore": 0.8219892978668213,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 12,
+                        "BeginOffset": 296,
+                        "EndOffset": 298,
+                        "Text": "99",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_UNIT",
+                        "Score": 0.8921527862548828,
+                        "RelationshipScore": 0.8672217726707458,
+                        "RelationshipType": "TEST_UNIT",
+                        "Id": 13,
+                        "BeginOffset": 298,
+                        "EndOffset": 299,
+                        "Text": "%",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.877546489238739,
+                        "RelationshipScore": 0.6270833611488342,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 14,
+                        "BeginOffset": 300,
+                        "EndOffset": 302,
+                        "Text": "90",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 15,
+                "BeginOffset": 303,
+                "EndOffset": 307,
+                "Score": 0.9584784507751465,
+                "Text": "Pain",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "SYMPTOM",
+                        "Score": 0.9817302823066711
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "DIRECTION",
+                        "Score": 0.821601390838623,
+                        "RelationshipScore": 0.6270833611488342,
+                        "RelationshipType": "DIRECTION",
+                        "Id": 16,
+                        "BeginOffset": 311,
+                        "EndOffset": 315,
+                        "Text": "left",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.7950295805931091,
+                        "RelationshipScore": 0.8031880259513855,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 17,
+                        "BeginOffset": 311,
+                        "EndOffset": 319,
+                        "Text": "left ear",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 17,
+                "BeginOffset": 311,
+                "EndOffset": 319,
+                "Score": 0.7950295805931091,
+                "Text": "left ear",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 24,
+                "BeginOffset": 316,
+                "EndOffset": 319,
+                "Score": 0.5971075296401978,
+                "Text": "ear",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 18,
+                "BeginOffset": 321,
+                "EndOffset": 329,
+                "Score": 0.7172441482543945,
+                "Text": "2.3 days",
+                "Category": "TIME_EXPRESSION",
+                "Type": "TIME_TO_DX_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "DX_NAME",
+                        "Score": 0.9584784507751465,
+                        "RelationshipScore": 0.6270833611488342,
+                        "RelationshipType": "OVERLAP",
+                        "Id": 15,
+                        "BeginOffset": 303,
+                        "EndOffset": 307,
+                        "Text": "Pain",
+                        "Category": "MEDICAL_CONDITION",
+                        "Traits": [
+                            {
+                                "Name": "SYMPTOM",
+                                "Score": 0.9817302823066711
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Id": 19,
+                "BeginOffset": 336,
+                "EndOffset": 344,
+                "Score": 0.5971075296401978,
+                "Text": "vesicles",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 20,
+                "BeginOffset": 336,
+                "EndOffset": 354,
+                "Score": 0.7613970637321472,
+                "Text": "vesicles over lift",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "SIGN",
+                        "Score": 0.5296252369880676
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.5971075296401978,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 19,
+                        "BeginOffset": 336,
+                        "EndOffset": 344,
+                        "Text": "vesicles",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 21,
+                "BeginOffset": 355,
+                "EndOffset": 359,
+                "Score": 0.7950295805931091,
+                "Text": "Pima",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.6248409748077393
+                    }
+                ]
+            },
+            {
+                "Id": 22,
+                "BeginOffset": 362,
+                "EndOffset": 375,
+                "Score": 0.5330596566200256,
+                "Text": "overthe Chest",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 23,
+                "BeginOffset": 376,
+                "EndOffset": 389,
+                "Score": 0.5330596566200256,
+                "Text": "Merpes zoster",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.5296252369880676
+                    }
+                ]
+            },
+            {
+                "Id": 26,
+                "BeginOffset": 376,
+                "EndOffset": 396,
+                "Score": 0.5971075296401978,
+                "Text": "Merpes zoster oticus",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.5752319693565369
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.5330596566200256,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 22,
+                        "BeginOffset": 362,
+                        "EndOffset": 375,
+                        "Text": "overthe Chest",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 27,
+                "BeginOffset": 405,
+                "EndOffset": 423,
+                "Score": 0.6603351831436157,
+                "Text": "ACYCLOVIR Shingles",
+                "Category": "MEDICATION",
+                "Type": "GENERIC_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "DOSAGE",
+                        "Score": 0.7172441482543945,
+                        "RelationshipScore": 0.7223333120346069,
+                        "RelationshipType": "DOSAGE",
+                        "Id": 28,
+                        "BeginOffset": 424,
+                        "EndOffset": 429,
+                        "Text": "800MG",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "FREQUENCY",
+                        "Score": 0.821601390838623,
+                        "RelationshipScore": 0.8031880259513855,
+                        "RelationshipType": "FREQUENCY",
+                        "Id": 29,
+                        "BeginOffset": 430,
+                        "EndOffset": 443,
+                        "Text": "5 Times a day",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "DURATION",
+                        "Score": 0.5971075296401978,
+                        "RelationshipScore": 0.6270833611488342,
+                        "RelationshipType": "DURATION",
+                        "Id": 30,
+                        "BeginOffset": 444,
+                        "EndOffset": 452,
+                        "Text": "X 7 DAYS",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 31,
+                "BeginOffset": 455,
+                "EndOffset": 463,
+                "Score": 0.5971075296401978,
+                "Text": "SOFRADEX",
+                "Category": "MEDICATION",
+                "Type": "BRAND_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "FORM",
+                        "Score": 0.6603351831436157,
+                        "RelationshipScore": 0.6270833611488342,
+                        "RelationshipType": "FORM",
+                        "Id": 32,
+                        "BeginOffset": 464,
+                        "EndOffset": 472,
+                        "Text": "GINTMENT",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "DURATION",
+                        "Score": 0.5330596566200256,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "DURATION",
+                        "Id": 33,
+                        "BeginOffset": 477,
+                        "EndOffset": 483,
+                        "Text": "7 DAYS",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 34,
+                "BeginOffset": 485,
+                "EndOffset": 494,
+                "Score": 0.5330596566200256,
+                "Text": "Anothi en",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TREATMENT_NAME",
+                "Traits": []
+            }
+        ],
+        "UnmappedAttributes": [
+            {
+                "Type": "ANATOMY",
+                "Attribute": {
+                    "Type": "DIRECTION",
+                    "Score": 0.821601390838623,
+                    "Id": 16,
+                    "BeginOffset": 311,
+                    "EndOffset": 315,
+                    "Text": "left",
+                    "Category": "ANATOMY",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "MEDICATION",
+                "Attribute": {
+                    "Type": "DURATION",
+                    "Score": 0.5330596566200256,
+                    "Id": 25,
+                    "BeginOffset": 321,
+                    "EndOffset": 329,
+                    "Text": "2.3 days",
+                    "Category": "MEDICATION",
+                    "Traits": []
+                }
+            }
+        ],
+        "ModelVersion": "3.0.0",
+        "ResponseMetadata": {
+            "RequestId": "38a9aadd-a80e-4332-b8bb-6c932fb5af33",
+            "HTTPStatusCode": 200,
+            "HTTPHeaders": {
+                "x-amzn-requestid": "38a9aadd-a80e-4332-b8bb-6c932fb5af33",
+                "content-type": "application/x-amz-json-1.1",
+                "content-length": "7997",
+                "date": "Thu, 06 Nov 2025 11:05:05 GMT"
+            },
+            "RetryAttempts": 0
+        }
+    },
+    "image_2.jpg": {
+        "Entities": [
+            {
+                "Id": 44,
+                "BeginOffset": 0,
+                "EndOffset": 39,
+                "Score": 0.19989478588104248,
+                "Text": "INSTITUTE OF FOUNDATION MEDICALSCHENCES",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "ADDRESS",
+                "Traits": []
+            },
+            {
+                "Id": 45,
+                "BeginOffset": 145,
+                "EndOffset": 186,
+                "Score": 0.725384533405304,
+                "Text": "BRESEAR MEDICAL SCIENCES & RESEAR Krishna",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "ADDRESS",
+                "Traits": []
+            },
+            {
+                "Id": 46,
+                "BeginOffset": 198,
+                "EndOffset": 217,
+                "Score": 0.27939310669898987,
+                "Text": "521 101. DEPARTMENT",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "NAME",
+                "Traits": []
+            },
+            {
+                "Id": 47,
+                "BeginOffset": 312,
+                "EndOffset": 320,
+                "Score": 0.9997953772544861,
+                "Text": "18/11/23",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "DATE",
+                "Traits": []
+            },
+            {
+                "Id": 48,
+                "BeginOffset": 374,
+                "EndOffset": 382,
+                "Score": 0.9951435327529907,
+                "Text": "12708728",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "ID",
+                "Traits": []
+            },
+            {
+                "Id": 49,
+                "BeginOffset": 383,
+                "EndOffset": 396,
+                "Score": 0.38164961338043213,
+                "Text": "U. SANKAR RAO",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "NAME",
+                "Traits": []
+            },
+            {
+                "Id": 2,
+                "BeginOffset": 409,
+                "EndOffset": 430,
+                "Score": 0.7172441482543945,
+                "Text": "Fracture of Both bone",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.6768204569816589
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "DIRECTION",
+                        "Score": 0.5330596566200256,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "DIRECTION",
+                        "Id": 3,
+                        "BeginOffset": 421,
+                        "EndOffset": 425,
+                        "Text": "Both",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.8435389995574951,
+                        "RelationshipScore": 0.8031880259513855,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 4,
+                        "BeginOffset": 421,
+                        "EndOffset": 430,
+                        "Text": "Both bone",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 6,
+                "BeginOffset": 409,
+                "EndOffset": 445,
+                "Score": 0.5971075296401978,
+                "Text": "Fracture of Both bone ORIF c plating",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.5296252369880676
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.5330596566200256,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 7,
+                        "BeginOffset": 421,
+                        "EndOffset": 445,
+                        "Text": "Both bone ORIF c plating",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "DIRECTION",
+                        "Score": 0.5330596566200256,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "DIRECTION",
+                        "Id": 9,
+                        "BeginOffset": 460,
+                        "EndOffset": 462,
+                        "Text": "Rt",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.5330596566200256,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 10,
+                        "BeginOffset": 460,
+                        "EndOffset": 483,
+                        "Text": "Rt Forearm to Both bone",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.6603351831436157,
+                        "RelationshipScore": 0.6270833611488342,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 11,
+                        "BeginOffset": 503,
+                        "EndOffset": 513,
+                        "Text": "Rt forearm",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 4,
+                "BeginOffset": 421,
+                "EndOffset": 430,
+                "Score": 0.8435389995574951,
+                "Text": "Both bone",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 7,
+                "BeginOffset": 421,
+                "EndOffset": 445,
+                "Score": 0.5330596566200256,
+                "Text": "Both bone ORIF c plating",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 5,
+                "BeginOffset": 431,
+                "EndOffset": 447,
+                "Score": 0.5330596566200256,
+                "Text": "ORIF c plating 2",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "PROCEDURE_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 50,
+                "BeginOffset": 455,
+                "EndOffset": 456,
+                "Score": 0.9328593611717224,
+                "Text": "J",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "NAME",
+                "Traits": []
+            },
+            {
+                "Id": 8,
+                "BeginOffset": 457,
+                "EndOffset": 483,
+                "Score": 0.5330596566200256,
+                "Text": "BB Rt Forearm to Both bone",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.47435709834098816
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "DIRECTION",
+                        "Score": 0.5330596566200256,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "DIRECTION",
+                        "Id": 9,
+                        "BeginOffset": 460,
+                        "EndOffset": 462,
+                        "Text": "Rt",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.5330596566200256,
+                        "RelationshipScore": 0.6270833611488342,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 10,
+                        "BeginOffset": 460,
+                        "EndOffset": 483,
+                        "Text": "Rt Forearm to Both bone",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.6603351831436157,
+                        "RelationshipScore": 0.5692254304885864,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 11,
+                        "BeginOffset": 503,
+                        "EndOffset": 513,
+                        "Text": "Rt forearm",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 10,
+                "BeginOffset": 460,
+                "EndOffset": 483,
+                "Score": 0.5330596566200256,
+                "Text": "Rt Forearm to Both bone",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 11,
+                "BeginOffset": 503,
+                "EndOffset": 513,
+                "Score": 0.6603351831436157,
+                "Text": "Rt forearm",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 51,
+                "BeginOffset": 517,
+                "EndOffset": 525,
+                "Score": 0.9289391040802002,
+                "Text": "12707767",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "ID",
+                "Traits": []
+            },
+            {
+                "Id": 52,
+                "BeginOffset": 526,
+                "EndOffset": 536,
+                "Score": 0.9579953551292419,
+                "Text": "G. Prakash",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "NAME",
+                "Traits": []
+            },
+            {
+                "Id": 12,
+                "BeginOffset": 542,
+                "EndOffset": 573,
+                "Score": 0.7172441482543945,
+                "Text": "Fracture of Rt ORIF C c plating",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.47435709834098816
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "DIRECTION",
+                        "Score": 0.6603351831436157,
+                        "RelationshipScore": 0.6270833611488342,
+                        "RelationshipType": "DIRECTION",
+                        "Id": 13,
+                        "BeginOffset": 554,
+                        "EndOffset": 556,
+                        "Text": "Rt",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.6603351831436157,
+                        "RelationshipScore": 0.6270833611488342,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 14,
+                        "BeginOffset": 554,
+                        "EndOffset": 573,
+                        "Text": "Rt ORIF C c plating",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.5330596566200256,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 15,
+                        "BeginOffset": 585,
+                        "EndOffset": 607,
+                        "Text": "BB distal Y3rd Humerus",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "DIRECTION",
+                        "Score": 0.5971075296401978,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "DIRECTION",
+                        "Id": 16,
+                        "BeginOffset": 588,
+                        "EndOffset": 594,
+                        "Text": "distal",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.5330596566200256,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 17,
+                        "BeginOffset": 608,
+                        "EndOffset": 625,
+                        "Text": "Rt distal Humerns",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 14,
+                "BeginOffset": 554,
+                "EndOffset": 573,
+                "Score": 0.6603351831436157,
+                "Text": "Rt ORIF C c plating",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 18,
+                "BeginOffset": 577,
+                "EndOffset": 584,
+                "Score": 0.5971075296401978,
+                "Text": "Dr.N. 1",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 15,
+                "BeginOffset": 585,
+                "EndOffset": 607,
+                "Score": 0.5330596566200256,
+                "Text": "BB distal Y3rd Humerus",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 17,
+                "BeginOffset": 608,
+                "EndOffset": 625,
+                "Score": 0.5330596566200256,
+                "Text": "Rt distal Humerns",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 53,
+                "BeginOffset": 627,
+                "EndOffset": 634,
+                "Score": 0.15757250785827637,
+                "Text": "krishna",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "NAME",
+                "Traits": []
+            },
+            {
+                "Id": 19,
+                "BeginOffset": 635,
+                "EndOffset": 640,
+                "Score": 0.5971075296401978,
+                "Text": "Shaft",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 20,
+                "BeginOffset": 635,
+                "EndOffset": 649,
+                "Score": 0.7613970637321472,
+                "Text": "Shaft fracture",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.5752319693565369
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.5971075296401978,
+                        "RelationshipScore": 0.5692254304885864,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 19,
+                        "BeginOffset": 635,
+                        "EndOffset": 640,
+                        "Text": "Shaft",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 21,
+                "BeginOffset": 662,
+                "EndOffset": 708,
+                "Score": 0.5971075296401978,
+                "Text": "Fracture of Both ORIFE plating to bone forearm",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.5296252369880676
+                    }
+                ],
+                "Attributes": [
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.5330596566200256,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 22,
+                        "BeginOffset": 696,
+                        "EndOffset": 708,
+                        "Text": "bone forearm",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "DIRECTION",
+                        "Score": 0.5971075296401978,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "DIRECTION",
+                        "Id": 23,
+                        "BeginOffset": 709,
+                        "EndOffset": 716,
+                        "Text": "RP side",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "DIRECTION",
+                        "Score": 0.5971075296401978,
+                        "RelationshipScore": 0.5692254304885864,
+                        "RelationshipType": "DIRECTION",
+                        "Id": 24,
+                        "BeginOffset": 717,
+                        "EndOffset": 719,
+                        "Text": "Rt",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "SYSTEM_ORGAN_SITE",
+                        "Score": 0.821601390838623,
+                        "RelationshipScore": 0.6270833611488342,
+                        "RelationshipType": "SYSTEM_ORGAN_SITE",
+                        "Id": 25,
+                        "BeginOffset": 717,
+                        "EndOffset": 727,
+                        "Text": "Rt Forearm",
+                        "Category": "ANATOMY",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 22,
+                "BeginOffset": 696,
+                "EndOffset": 708,
+                "Score": 0.5330596566200256,
+                "Text": "bone forearm",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 25,
+                "BeginOffset": 717,
+                "EndOffset": 727,
+                "Score": 0.821601390838623,
+                "Text": "Rt Forearm",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 27,
+                "BeginOffset": 743,
+                "EndOffset": 773,
+                "Score": 0.5330596566200256,
+                "Text": "CRIF I ORIF c 3rd Intetacarpal",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "PROCEDURE_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 32,
+                "BeginOffset": 743,
+                "EndOffset": 778,
+                "Score": 0.5330596566200256,
+                "Text": "CRIF I ORIF c 3rd Intetacarpal Neck",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "PROCEDURE_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 28,
+                "BeginOffset": 757,
+                "EndOffset": 773,
+                "Score": 0.5330596566200256,
+                "Text": "3rd Intetacarpal",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 33,
+                "BeginOffset": 757,
+                "EndOffset": 778,
+                "Score": 0.5330596566200256,
+                "Text": "3rd Intetacarpal Neck",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 29,
+                "BeginOffset": 774,
+                "EndOffset": 778,
+                "Score": 0.5330596566200256,
+                "Text": "Neck",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 30,
+                "BeginOffset": 779,
+                "EndOffset": 822,
+                "Score": 0.5330596566200256,
+                "Text": "CCSCrew 1 wire Fracturef 4th fixation to RT",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "PROCEDURE_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 34,
+                "BeginOffset": 779,
+                "EndOffset": 845,
+                "Score": 0.5971075296401978,
+                "Text": "CCSCrew 1 wire Fracturef 4th fixation to RT 3rd & Proximal phalanx",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "PROCEDURE_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 35,
+                "BeginOffset": 820,
+                "EndOffset": 826,
+                "Score": 0.5971075296401978,
+                "Text": "RT 3rd",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 37,
+                "BeginOffset": 829,
+                "EndOffset": 845,
+                "Score": 0.6603351831436157,
+                "Text": "Proximal phalanx",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 38,
+                "BeginOffset": 846,
+                "EndOffset": 861,
+                "Score": 0.5971075296401978,
+                "Text": "CRIF retacarpal",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "PROCEDURE_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 39,
+                "BeginOffset": 851,
+                "EndOffset": 861,
+                "Score": 0.7950295805931091,
+                "Text": "retacarpal",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 40,
+                "BeginOffset": 864,
+                "EndOffset": 916,
+                "Score": 0.5330596566200256,
+                "Text": "DRIF c plating/kure Fracture to RT 4th prod malplant",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "PROCEDURE_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 41,
+                "BeginOffset": 869,
+                "EndOffset": 878,
+                "Score": 0.5330596566200256,
+                "Text": "c plating",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 42,
+                "BeginOffset": 879,
+                "EndOffset": 883,
+                "Score": 0.5330596566200256,
+                "Text": "kure",
+                "Category": "ANATOMY",
+                "Type": "SYSTEM_ORGAN_SITE",
+                "Traits": []
+            },
+            {
+                "Id": 43,
+                "BeginOffset": 884,
+                "EndOffset": 916,
+                "Score": 0.5330596566200256,
+                "Text": "Fracture to RT 4th prod malplant",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.47435709834098816
+                    }
+                ]
+            },
+            {
+                "Id": 54,
+                "BeginOffset": 931,
+                "EndOffset": 956,
+                "Score": 0.3458092212677002,
+                "Text": "Director General Hospital",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "ADDRESS",
+                "Traits": []
+            },
+            {
+                "Id": 55,
+                "BeginOffset": 1021,
+                "EndOffset": 1024,
+                "Score": 0.3329295814037323,
+                "Text": "O.T",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "NAME",
+                "Traits": []
+            }
+        ],
+        "UnmappedAttributes": [
+            {
+                "Type": "ANATOMY",
+                "Attribute": {
+                    "Type": "DIRECTION",
+                    "Score": 0.5330596566200256,
+                    "Id": 3,
+                    "BeginOffset": 421,
+                    "EndOffset": 425,
+                    "Text": "Both",
+                    "Category": "ANATOMY",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "ANATOMY",
+                "Attribute": {
+                    "Type": "DIRECTION",
+                    "Score": 0.5330596566200256,
+                    "Id": 9,
+                    "BeginOffset": 460,
+                    "EndOffset": 462,
+                    "Text": "Rt",
+                    "Category": "ANATOMY",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "ANATOMY",
+                "Attribute": {
+                    "Type": "DIRECTION",
+                    "Score": 0.6603351831436157,
+                    "Id": 13,
+                    "BeginOffset": 554,
+                    "EndOffset": 556,
+                    "Text": "Rt",
+                    "Category": "ANATOMY",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "ANATOMY",
+                "Attribute": {
+                    "Type": "DIRECTION",
+                    "Score": 0.5971075296401978,
+                    "Id": 16,
+                    "BeginOffset": 588,
+                    "EndOffset": 594,
+                    "Text": "distal",
+                    "Category": "ANATOMY",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "ANATOMY",
+                "Attribute": {
+                    "Type": "DIRECTION",
+                    "Score": 0.5971075296401978,
+                    "Id": 23,
+                    "BeginOffset": 709,
+                    "EndOffset": 716,
+                    "Text": "RP side",
+                    "Category": "ANATOMY",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "ANATOMY",
+                "Attribute": {
+                    "Type": "DIRECTION",
+                    "Score": 0.5971075296401978,
+                    "Id": 24,
+                    "BeginOffset": 717,
+                    "EndOffset": 719,
+                    "Text": "Rt",
+                    "Category": "ANATOMY",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "ANATOMY",
+                "Attribute": {
+                    "Type": "DIRECTION",
+                    "Score": 0.5330596566200256,
+                    "Id": 26,
+                    "BeginOffset": 740,
+                    "EndOffset": 742,
+                    "Text": "Rt",
+                    "Category": "ANATOMY",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "ANATOMY",
+                "Attribute": {
+                    "Type": "DIRECTION",
+                    "Score": 0.7613970637321472,
+                    "Id": 31,
+                    "BeginOffset": 820,
+                    "EndOffset": 822,
+                    "Text": "RT",
+                    "Category": "ANATOMY",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "ANATOMY",
+                "Attribute": {
+                    "Type": "DIRECTION",
+                    "Score": 0.7950295805931091,
+                    "Id": 36,
+                    "BeginOffset": 829,
+                    "EndOffset": 837,
+                    "Text": "Proximal",
+                    "Category": "ANATOMY",
+                    "Traits": []
+                }
+            }
+        ],
+        "ModelVersion": "3.0.0",
+        "ResponseMetadata": {
+            "RequestId": "ffe32268-3f07-4e55-be1a-47a601becb83",
+            "HTTPStatusCode": 200,
+            "HTTPHeaders": {
+                "x-amzn-requestid": "ffe32268-3f07-4e55-be1a-47a601becb83",
+                "content-type": "application/x-amz-json-1.1",
+                "content-length": "13671",
+                "date": "Thu, 06 Nov 2025 11:05:09 GMT"
+            },
+            "RetryAttempts": 0
+        }
+    },
+    "image_4.jpg": {
+        "Entities": [
+            {
+                "Id": 27,
+                "BeginOffset": 0,
+                "EndOffset": 11,
+                "Score": 0.9641918540000916,
+                "Text": "13 JAN 2020",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "DATE",
+                "Traits": []
+            },
+            {
+                "Id": 28,
+                "BeginOffset": 18,
+                "EndOffset": 23,
+                "Score": 0.34792739152908325,
+                "Text": "Mitra",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "NAME",
+                "Traits": []
+            },
+            {
+                "Id": 29,
+                "BeginOffset": 94,
+                "EndOffset": 102,
+                "Score": 0.9544888138771057,
+                "Text": "40607212",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "ID",
+                "Traits": []
+            },
+            {
+                "Id": 2,
+                "BeginOffset": 133,
+                "EndOffset": 135,
+                "Score": 0.5971075296401978,
+                "Text": "P.",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.8617406487464905,
+                        "RelationshipScore": 0.7552722692489624,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 3,
+                        "BeginOffset": 136,
+                        "EndOffset": 145,
+                        "Text": "18.150/76",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 4,
+                "BeginOffset": 146,
+                "EndOffset": 151,
+                "Score": 0.7172441482543945,
+                "Text": "Resul",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.7950295805931091,
+                        "RelationshipScore": 0.6795811653137207,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 5,
+                        "BeginOffset": 153,
+                        "EndOffset": 155,
+                        "Text": "81",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 6,
+                "BeginOffset": 169,
+                "EndOffset": 172,
+                "Score": 0.5330596566200256,
+                "Text": "MR.",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 7,
+                "BeginOffset": 173,
+                "EndOffset": 177,
+                "Score": 0.5330596566200256,
+                "Text": "P.P.",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 8,
+                "BeginOffset": 191,
+                "EndOffset": 194,
+                "Score": 0.5330596566200256,
+                "Text": "Sat",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.8435389995574951,
+                        "RelationshipScore": 0.7814922332763672,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 9,
+                        "BeginOffset": 195,
+                        "EndOffset": 197,
+                        "Text": "96",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "TEST_UNIT",
+                        "Score": 0.8921527862548828,
+                        "RelationshipScore": 0.8219892978668213,
+                        "RelationshipType": "TEST_UNIT",
+                        "Id": 10,
+                        "BeginOffset": 197,
+                        "EndOffset": 198,
+                        "Text": "%",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 11,
+                "BeginOffset": 205,
+                "EndOffset": 213,
+                "Score": 0.5330596566200256,
+                "Text": "ACODEP C",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 12,
+                "BeginOffset": 215,
+                "EndOffset": 226,
+                "Score": 0.5330596566200256,
+                "Text": "Aco tiamide",
+                "Category": "MEDICATION",
+                "Type": "GENERIC_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 14,
+                "BeginOffset": 247,
+                "EndOffset": 280,
+                "Score": 0.5330596566200256,
+                "Text": "dirm. 0 B before leads 2 MEVA-C V",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 13,
+                "BeginOffset": 272,
+                "EndOffset": 280,
+                "Score": 0.5971075296401978,
+                "Text": "MEVA-C V",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 15,
+                "BeginOffset": 360,
+                "EndOffset": 369,
+                "Score": 0.5330596566200256,
+                "Text": "Jomb evat",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.7613970637321472,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 16,
+                        "BeginOffset": 371,
+                        "EndOffset": 373,
+                        "Text": "96",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 17,
+                "BeginOffset": 382,
+                "EndOffset": 385,
+                "Score": 0.5971075296401978,
+                "Text": "LDL",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.8617406487464905,
+                        "RelationshipScore": 0.8031880259513855,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 18,
+                        "BeginOffset": 386,
+                        "EndOffset": 389,
+                        "Text": "157",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 19,
+                "BeginOffset": 390,
+                "EndOffset": 395,
+                "Score": 0.7613970637321472,
+                "Text": "Ordp7",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "TEST_VALUE",
+                        "Score": 0.8617406487464905,
+                        "RelationshipScore": 0.7552722692489624,
+                        "RelationshipType": "TEST_VALUE",
+                        "Id": 20,
+                        "BeginOffset": 396,
+                        "EndOffset": 398,
+                        "Text": "61",
+                        "Category": "TEST_TREATMENT_PROCEDURE",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 21,
+                "BeginOffset": 399,
+                "EndOffset": 402,
+                "Score": 0.7613970637321472,
+                "Text": "ECG",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TEST_NAME",
+                "Traits": []
+            }
+        ],
+        "UnmappedAttributes": [
+            {
+                "Type": "TEST_TREATMENT_PROCEDURE",
+                "Attribute": {
+                    "Type": "TEST_VALUE",
+                    "Score": 0.5971075296401978,
+                    "Id": 22,
+                    "BeginOffset": 374,
+                    "EndOffset": 380,
+                    "Text": "7c. 23",
+                    "Category": "TEST_TREATMENT_PROCEDURE",
+                    "Traits": []
+                }
+            }
+        ],
+        "ModelVersion": "3.0.0",
+        "ResponseMetadata": {
+            "RequestId": "398695af-0c28-49c5-9b67-b6657d956645",
+            "HTTPStatusCode": 200,
+            "HTTPHeaders": {
+                "x-amzn-requestid": "398695af-0c28-49c5-9b67-b6657d956645",
+                "content-type": "application/x-amz-json-1.1",
+                "content-length": "4420",
+                "date": "Thu, 06 Nov 2025 11:05:11 GMT"
+            },
+            "RetryAttempts": 0
+        }
+    },
+    "image_3.jpg": {
+        "Entities": [
+            {
+                "Id": 37,
+                "BeginOffset": 4,
+                "EndOffset": 19,
+                "Score": 0.9838634729385376,
+                "Text": "Y. NAGENDAR RAO",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "NAME",
+                "Traits": []
+            },
+            {
+                "Id": 38,
+                "BeginOffset": 31,
+                "EndOffset": 50,
+                "Score": 0.9991010427474976,
+                "Text": "Sardar Patel Colony",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "NAME",
+                "Traits": []
+            },
+            {
+                "Id": 39,
+                "BeginOffset": 180,
+                "EndOffset": 184,
+                "Score": 0.27947255969047546,
+                "Text": "8373",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "ID",
+                "Traits": []
+            },
+            {
+                "Id": 40,
+                "BeginOffset": 204,
+                "EndOffset": 208,
+                "Score": 0.8851760625839233,
+                "Text": "Resi",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "NAME",
+                "Traits": []
+            },
+            {
+                "Id": 41,
+                "BeginOffset": 210,
+                "EndOffset": 222,
+                "Score": 0.4635787308216095,
+                "Text": "040-27796644",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "PHONE_OR_FAX",
+                "Traits": []
+            },
+            {
+                "Id": 42,
+                "BeginOffset": 226,
+                "EndOffset": 234,
+                "Score": 0.9988610744476318,
+                "Text": "SRiNiVAS",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "NAME",
+                "Traits": []
+            },
+            {
+                "Id": 43,
+                "BeginOffset": 240,
+                "EndOffset": 250,
+                "Score": 0.9734572172164917,
+                "Text": "15-03-2024",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "DATE",
+                "Traits": []
+            },
+            {
+                "Id": 2,
+                "BeginOffset": 286,
+                "EndOffset": 298,
+                "Score": 0.7613970637321472,
+                "Text": "Schizophremi",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.5296252369880676
+                    }
+                ]
+            },
+            {
+                "Id": 3,
+                "BeginOffset": 309,
+                "EndOffset": 311,
+                "Score": 0.5330596566200256,
+                "Text": "DM",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.5296252369880676
+                    }
+                ]
+            },
+            {
+                "Id": 4,
+                "BeginOffset": 313,
+                "EndOffset": 316,
+                "Score": 0.8921527862548828,
+                "Text": "HTN",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.9013108015060425
+                    }
+                ]
+            },
+            {
+                "Id": 5,
+                "BeginOffset": 324,
+                "EndOffset": 338,
+                "Score": 0.7172441482543945,
+                "Text": "H4 perchdement",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "DIAGNOSIS",
+                        "Score": 0.5296252369880676
+                    }
+                ]
+            },
+            {
+                "Id": 7,
+                "BeginOffset": 343,
+                "EndOffset": 355,
+                "Score": 0.5971075296401978,
+                "Text": "SiZODON PLus",
+                "Category": "MEDICATION",
+                "Type": "BRAND_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "FORM",
+                        "Score": 0.5971075296401978,
+                        "RelationshipScore": 0.5692254304885864,
+                        "RelationshipType": "FORM",
+                        "Id": 6,
+                        "BeginOffset": 339,
+                        "EndOffset": 342,
+                        "Text": "Tab",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 8,
+                "BeginOffset": 343,
+                "EndOffset": 355,
+                "Score": 0.5330596566200256,
+                "Text": "SiZODON PLus",
+                "Category": "MEDICATION",
+                "Type": "GENERIC_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "DOSAGE",
+                        "Score": 0.5330596566200256,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "DOSAGE",
+                        "Id": 10,
+                        "BeginOffset": 365,
+                        "EndOffset": 373,
+                        "Text": "1 parent",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 9,
+                "BeginOffset": 357,
+                "EndOffset": 363,
+                "Score": 0.6603351831436157,
+                "Text": "Tright",
+                "Category": "MEDICATION",
+                "Type": "BRAND_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "DOSAGE",
+                        "Score": 0.5330596566200256,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "DOSAGE",
+                        "Id": 10,
+                        "BeginOffset": 365,
+                        "EndOffset": 373,
+                        "Text": "1 parent",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 11,
+                "BeginOffset": 374,
+                "EndOffset": 378,
+                "Score": 0.5330596566200256,
+                "Text": "Dels",
+                "Category": "MEDICATION",
+                "Type": "BRAND_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "DOSAGE",
+                        "Score": 0.6603351831436157,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "DOSAGE",
+                        "Id": 12,
+                        "BeginOffset": 380,
+                        "EndOffset": 381,
+                        "Text": "1",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 13,
+                "BeginOffset": 384,
+                "EndOffset": 386,
+                "Score": 0.5330596566200256,
+                "Text": "ND",
+                "Category": "MEDICATION",
+                "Type": "BRAND_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 14,
+                "BeginOffset": 387,
+                "EndOffset": 389,
+                "Score": 0.5330596566200256,
+                "Text": "AH",
+                "Category": "MEDICATION",
+                "Type": "BRAND_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 15,
+                "BeginOffset": 392,
+                "EndOffset": 399,
+                "Score": 0.5330596566200256,
+                "Text": "morrani",
+                "Category": "MEDICATION",
+                "Type": "BRAND_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 16,
+                "BeginOffset": 443,
+                "EndOffset": 450,
+                "Score": 0.5330596566200256,
+                "Text": "Qutipin",
+                "Category": "MEDICATION",
+                "Type": "BRAND_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "STRENGTH",
+                        "Score": 0.5330596566200256,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "STRENGTH",
+                        "Id": 17,
+                        "BeginOffset": 451,
+                        "EndOffset": 456,
+                        "Text": "200mg",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "FREQUENCY",
+                        "Score": 0.5330596566200256,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "FREQUENCY",
+                        "Id": 22,
+                        "BeginOffset": 459,
+                        "EndOffset": 469,
+                        "Text": "X X 1Night",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "DOSAGE",
+                        "Score": 0.5330596566200256,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "DOSAGE",
+                        "Id": 18,
+                        "BeginOffset": 471,
+                        "EndOffset": 476,
+                        "Text": "3 Tab",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 19,
+                "BeginOffset": 477,
+                "EndOffset": 483,
+                "Score": 0.5971075296401978,
+                "Text": "ATivan",
+                "Category": "MEDICATION",
+                "Type": "BRAND_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "FREQUENCY",
+                        "Score": 0.5330596566200256,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "FREQUENCY",
+                        "Id": 23,
+                        "BeginOffset": 496,
+                        "EndOffset": 503,
+                        "Text": "6marths",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "DOSAGE",
+                        "Score": 0.5330596566200256,
+                        "RelationshipScore": 0.5068173408508301,
+                        "RelationshipType": "DOSAGE",
+                        "Id": 24,
+                        "BeginOffset": 504,
+                        "EndOffset": 509,
+                        "Text": "2 2mg",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "FREQUENCY",
+                        "Score": 0.5971075296401978,
+                        "RelationshipScore": 0.5692254304885864,
+                        "RelationshipType": "FREQUENCY",
+                        "Id": 25,
+                        "BeginOffset": 510,
+                        "EndOffset": 528,
+                        "Text": "X X (Six) lNight s",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "FREQUENCY",
+                        "Score": 0.6603351831436157,
+                        "RelationshipScore": 0.5692254304885864,
+                        "RelationshipType": "FREQUENCY",
+                        "Id": 26,
+                        "BeginOffset": 529,
+                        "EndOffset": 531,
+                        "Text": "Td",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 20,
+                "BeginOffset": 485,
+                "EndOffset": 494,
+                "Score": 0.7950295805931091,
+                "Text": "Lorazepam",
+                "Category": "MEDICATION",
+                "Type": "GENERIC_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "FREQUENCY",
+                        "Score": 0.5330596566200256,
+                        "RelationshipScore": 0.5692254304885864,
+                        "RelationshipType": "FREQUENCY",
+                        "Id": 23,
+                        "BeginOffset": 496,
+                        "EndOffset": 503,
+                        "Text": "6marths",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "DOSAGE",
+                        "Score": 0.5330596566200256,
+                        "RelationshipScore": 0.6270833611488342,
+                        "RelationshipType": "DOSAGE",
+                        "Id": 24,
+                        "BeginOffset": 504,
+                        "EndOffset": 509,
+                        "Text": "2 2mg",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "FREQUENCY",
+                        "Score": 0.5971075296401978,
+                        "RelationshipScore": 0.5692254304885864,
+                        "RelationshipType": "FREQUENCY",
+                        "Id": 25,
+                        "BeginOffset": 510,
+                        "EndOffset": 528,
+                        "Text": "X X (Six) lNight s",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "FREQUENCY",
+                        "Score": 0.6603351831436157,
+                        "RelationshipScore": 0.7223333120346069,
+                        "RelationshipType": "FREQUENCY",
+                        "Id": 26,
+                        "BeginOffset": 529,
+                        "EndOffset": 531,
+                        "Text": "Td",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 27,
+                "BeginOffset": 532,
+                "EndOffset": 540,
+                "Score": 0.6603351831436157,
+                "Text": "Rivotril",
+                "Category": "MEDICATION",
+                "Type": "BRAND_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "DOSAGE",
+                        "Score": 0.5971075296401978,
+                        "RelationshipScore": 0.5692254304885864,
+                        "RelationshipType": "DOSAGE",
+                        "Id": 28,
+                        "BeginOffset": 541,
+                        "EndOffset": 546,
+                        "Text": "0.5mg",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 29,
+                "BeginOffset": 548,
+                "EndOffset": 558,
+                "Score": 0.5330596566200256,
+                "Text": "cloncyepam",
+                "Category": "MEDICATION",
+                "Type": "GENERIC_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 30,
+                "BeginOffset": 577,
+                "EndOffset": 582,
+                "Score": 0.5971075296401978,
+                "Text": "SERTA",
+                "Category": "MEDICATION",
+                "Type": "GENERIC_NAME",
+                "Traits": [],
+                "Attributes": [
+                    {
+                        "Type": "DOSAGE",
+                        "Score": 0.7172441482543945,
+                        "RelationshipScore": 0.7223333120346069,
+                        "RelationshipType": "DOSAGE",
+                        "Id": 31,
+                        "BeginOffset": 583,
+                        "EndOffset": 587,
+                        "Text": "50mg",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    },
+                    {
+                        "Type": "FREQUENCY",
+                        "Score": 0.7172441482543945,
+                        "RelationshipScore": 0.7223333120346069,
+                        "RelationshipType": "FREQUENCY",
+                        "Id": 32,
+                        "BeginOffset": 588,
+                        "EndOffset": 597,
+                        "Text": "X 1 Night",
+                        "Category": "MEDICATION",
+                        "Traits": []
+                    }
+                ]
+            },
+            {
+                "Id": 33,
+                "BeginOffset": 621,
+                "EndOffset": 628,
+                "Score": 0.7950295805931091,
+                "Text": "problem",
+                "Category": "MEDICAL_CONDITION",
+                "Type": "DX_NAME",
+                "Traits": [
+                    {
+                        "Name": "HYPOTHETICAL",
+                        "Score": 0.5296252369880676
+                    },
+                    {
+                        "Name": "SYMPTOM",
+                        "Score": 0.8203471899032593
+                    }
+                ]
+            },
+            {
+                "Id": 34,
+                "BeginOffset": 638,
+                "EndOffset": 648,
+                "Score": 0.5330596566200256,
+                "Text": "Olha BPl S",
+                "Category": "MEDICATION",
+                "Type": "BRAND_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 36,
+                "BeginOffset": 654,
+                "EndOffset": 663,
+                "Score": 0.7172441482543945,
+                "Text": "medicines",
+                "Category": "TEST_TREATMENT_PROCEDURE",
+                "Type": "TREATMENT_NAME",
+                "Traits": []
+            },
+            {
+                "Id": 44,
+                "BeginOffset": 679,
+                "EndOffset": 685,
+                "Score": 0.8935011625289917,
+                "Text": "Rao Y.",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "NAME",
+                "Traits": []
+            },
+            {
+                "Id": 45,
+                "BeginOffset": 693,
+                "EndOffset": 702,
+                "Score": 0.21320052444934845,
+                "Text": "Emergency",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "ADDRESS",
+                "Traits": []
+            },
+            {
+                "Id": 46,
+                "BeginOffset": 753,
+                "EndOffset": 766,
+                "Score": 0.8473997116088867,
+                "Text": "Asha Hospital",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "ADDRESS",
+                "Traits": []
+            },
+            {
+                "Id": 47,
+                "BeginOffset": 781,
+                "EndOffset": 794,
+                "Score": 0.9509860277175903,
+                "Text": "Banjara Hills",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "NAME",
+                "Traits": []
+            },
+            {
+                "Id": 48,
+                "BeginOffset": 813,
+                "EndOffset": 821,
+                "Score": 0.9407033324241638,
+                "Text": "66752222",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "ID",
+                "Traits": []
+            },
+            {
+                "Id": 49,
+                "BeginOffset": 823,
+                "EndOffset": 831,
+                "Score": 0.9959084987640381,
+                "Text": "23542838",
+                "Category": "PROTECTED_HEALTH_INFORMATION",
+                "Type": "ID",
+                "Traits": []
+            }
+        ],
+        "UnmappedAttributes": [
+            {
+                "Type": "MEDICATION",
+                "Attribute": {
+                    "Type": "DOSAGE",
+                    "Score": 0.5971075296401978,
+                    "Id": 21,
+                    "BeginOffset": 437,
+                    "EndOffset": 442,
+                    "Text": "2 Tab",
+                    "Category": "MEDICATION",
+                    "Traits": []
+                }
+            },
+            {
+                "Type": "MEDICATION",
+                "Attribute": {
+                    "Type": "FREQUENCY",
+                    "Score": 0.5330596566200256,
+                    "Id": 35,
+                    "BeginOffset": 572,
+                    "EndOffset": 576,
+                    "Text": "5 Td",
+                    "Category": "MEDICATION",
+                    "Traits": []
+                }
+            }
+        ],
+        "ModelVersion": "3.0.0",
+        "ResponseMetadata": {
+            "RequestId": "11de7d26-85bc-4dc2-974b-4bbd93c7d6fc",
+            "HTTPStatusCode": 200,
+            "HTTPHeaders": {
+                "x-amzn-requestid": "11de7d26-85bc-4dc2-974b-4bbd93c7d6fc",
+                "content-type": "application/x-amz-json-1.1",
+                "content-length": "9591",
+                "date": "Thu, 06 Nov 2025 17:57:26 GMT"
+            },
+            "RetryAttempts": 0
+        }
+    }
+}

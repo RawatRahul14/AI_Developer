@@ -7,7 +7,8 @@ from Task1.utils import (
     get_conn,
     extract_image_data,
     get_relevant_data,
-    check_existing_extractions
+    check_existing_extractions,
+    open_file
 )
 
 # === Main Data Extraction Body ===
@@ -16,7 +17,9 @@ class TextractPipeline:
     Class-based pipeline to handle AWS Textract image-to-text extraction workflow.
     """
 
-    def __init__(self):
+    def __init__(
+            self
+    ):
         """
         Initializes the TextractPipeline by setting up default paths and AWS client.
         """
@@ -45,7 +48,8 @@ class TextractPipeline:
         ## === Checking if there are new images to process ===
         if not flag_dict.get("to_process", []):
             print("No new images to process.")
-            return
+            data_dict = open_file()
+            return data_dict
 
         try:
             ## === Step 1: Making the connection (only if not already initialized) ===
@@ -61,12 +65,13 @@ class TextractPipeline:
             )
 
             ## === Step 3: Extracting relevant data and saving it as JSON ===
-            data_dict = get_relevant_data(
+            _ = get_relevant_data(
                 data = data,
                 save_data = True
             )
 
             print("Extraction pipeline completed successfully.")
+            data_dict = open_file()
             return data_dict
 
         except Exception as e:
