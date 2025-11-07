@@ -3,3 +3,5 @@ pandas
 numpy
 pillow
 fastapi
+langchain-openai
+python-dotenv

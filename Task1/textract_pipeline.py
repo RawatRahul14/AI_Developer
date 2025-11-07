@@ -23,9 +23,6 @@ class TextractPipeline:
         """
         Initializes the TextractPipeline by setting up default paths and AWS client.
         """
-        ## === Default data directory path ===
-        self.file_path: Path = Path("data")
-
         ## === AWS client placeholder (will be initialized during extraction) ===
         self.client = None
 
