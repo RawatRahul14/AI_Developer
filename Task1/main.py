@@ -8,9 +8,9 @@ sys.path.append(
 )
 
 # === AWS Textract Pipeline ===
-from Task1.textract_pipeline import TextractPipeline
-from Task1.comprehend_pipeline import ComprehendPipeline
-from Task1.summary import process_comprehend_results
+from Task1.pipelines.textract_pipeline import TextractPipeline
+from Task1.pipelines.comprehend_pipeline import ComprehendPipeline
+from Task1.utils.summary import process_comprehend_results
 
 # === Main Function Combineing both the pipelines ===
 def main():

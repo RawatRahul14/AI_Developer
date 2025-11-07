@@ -2,12 +2,16 @@
 import os
 from pathlib import Path
 
-# === Utils ===
-from Task1.utils import (
-    get_conn,
-    extract_image_data,
-    get_relevant_data,
+# === Components ===
+from Task1.components.extraction import (
     check_existing_extractions,
+    extract_image_data,
+    get_relevant_data
+)
+
+# === Utils ===
+from Task1.utils.common import (
+    get_conn,
     open_file
 )
 

@@ -3,14 +3,18 @@ import os
 from typing import Dict
 from pathlib import Path
 
+# === Agent ===
+from Task2.model.agent import (
+    get_structured_summaries
+)
+
 # === Utils ===
-from Task2.utils import (
+from Task2.utils.common import (
     summarize,
-    get_structured_summaries,
     check_existing_summaries
 )
 
-from Task1.utils import (
+from Task1.utils.common import (
     open_file
 )
 

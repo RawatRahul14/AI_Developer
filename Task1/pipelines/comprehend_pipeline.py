@@ -3,11 +3,15 @@ import os
 from pathlib import Path
 from typing import Dict
 
-# === Utils ===
-from Task1.utils import (
-    get_conn,
-    extract_medical_entities,
+# === Components ===
+from Task1.components.comprehend import (
     check_existing_comprehend,
+    extract_medical_entities
+)
+
+# === Utils ===
+from Task1.utils.common import (
+    get_conn,
     open_file
 )
 
