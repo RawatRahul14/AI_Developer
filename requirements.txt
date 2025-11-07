@@ -5,3 +5,7 @@ pillow
 fastapi
 langchain-openai
 python-dotenv
+streamlit
+langchain-community
+faiss-cpu
+langchain-core
