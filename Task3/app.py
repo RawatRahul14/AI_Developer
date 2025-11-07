@@ -1,5 +1,7 @@
 # === Python Module ===
 import streamlit as st
+import requests
+import uuid
 
 
 # === Main Streamlit UI Body ===
@@ -21,14 +23,19 @@ def main() -> None:
 
     # === Sidebar ===
     with st.sidebar:
-        st.header("⚙️ Settings")
-        st.write("Configuration options will appear here later.")
         st.divider()
         st.caption("Mini RAG Agent — Markdown Chat UI")
 
     # === Initialize Chat History ===
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
+
+    # === Create or Retrieve Session UUID ===
+    if "unique_id" not in st.session_state:
+        st.session_state.unique_id = str(uuid.uuid4())
+
+    # === Backend Endpoint URL ===
+    FASTAPI_URL = "http://127.0.0.1:8000/generate"
 
     # === Chat Display Section ===
     st.markdown("### 💬 Conversation")
@@ -51,8 +58,27 @@ def main() -> None:
             "content": user_input
         })
 
-        # Add placeholder bot response
-        bot_response = "_(Backend not connected yet - placeholder response)_"
+        try:
+            # === Send Query to FastAPI Backend ===
+            response = requests.post(
+                FASTAPI_URL,
+                json = {
+                    "unique_id": st.session_state.unique_id,
+                    "query": user_input
+                },
+                timeout = 60
+            )
+
+            if response.status_code == 200:
+                data = response.json()
+                bot_response = data.get("answer", "No response generated.")
+            else:
+                bot_response = f"⚠️ Backend Error: {response.status_code}"
+
+        except Exception as e:
+            bot_response = f"❌ Connection Error: {e}"
+
+        # Add bot response
         st.session_state.chat_history.append({
             "role": "assistant",
             "content": bot_response

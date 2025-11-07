@@ -9,3 +9,8 @@ streamlit
 langchain-community
 faiss-cpu
 langchain-core
+langgraph
+langgraph-checkpoint-mongodb
+langchain-mongodb[async]
+pymongo[srv]
+uvicorn

@@ -7,6 +7,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
 from langchain_core.documents import Document
 
+
 # === FAISS Retriever Class ===
 class FAISSRetriever:
     """
@@ -20,12 +21,12 @@ class FAISSRetriever:
         embedding_model: str = "text-embedding-3-small"
     ):
         self.index_path = index_path
-        self.embeddings = OpenAIEmbeddings(model = embedding_model)
+        self.embeddings = OpenAIEmbeddings(model=embedding_model)
         self.db = None
 
-        ## === Creating the directory if not exist ===
+        # === Ensure directory exists ===
         os.makedirs(
-            index_path,
+            self.index_path,
             exist_ok = True
         )
 
@@ -36,26 +37,18 @@ class FAISSRetriever:
         data: Dict[str, str]
     ) -> List[Document]:
         """
-        Converts a dict of filename:text into a list of LangChain Document objects with metadata.
-
-        Args:
-            data_dict (Dict[str, Dict[str, str]]): e.g. {"'image_1.jpg_summary.json': {'patient': 'Anupama Joshi', ..."}
-            data (Dict[str, str]): e.g. {"image_1.json": "Patient details text...", ...}
-
-        Returns:
-            List[Document]: list of LangChain Document objects
+        Converts dict of filename:text into LangChain Document objects with metadata.
         """
         documents = []
         for filename, content in data_dict.items():
-
-            ## === Getting metadata ===
+            # === Extract metadata ===
             name = content.get("patient")
-
             metadata = {
                 "source_file": filename,
                 "patient_name": name
             }
 
+            # === Create document ===
             doc = Document(
                 page_content = data[filename],
                 metadata = metadata
@@ -67,33 +60,40 @@ class FAISSRetriever:
 
     # === Build index from Document objects ===
     def build_index(
-            self,
-            documents: List[Document]
-    ) -> None:
+            self, documents: List[Document]
+    ) -> Any:
         """
         Builds and saves a FAISS index from LangChain Document objects.
+        Returns a retriever interface.
         """
         print("Building FAISS index from documents...")
 
         if not documents:
             raise ValueError("No documents provided to build the index.")
 
+        # === Build the FAISS DB ===
         self.db = FAISS.from_documents(
             documents = documents,
             embedding = self.embeddings
         )
 
+        # === Save Index ===
         self.db.save_local(self.index_path)
         print(f"FAISS index saved at: {os.path.abspath(self.index_path)}")
 
+        # === Return retriever object ===
+        return self.db.as_retriever(
+            search_kwargs = {
+                "k": 3
+            }
+        )
+
     # === Load existing FAISS index ===
-    def load_index(
-            self
-    ) -> None:
+    def load_index(self) -> Any:
         """
-        Loads a previously saved FAISS index.
+        Loads a previously saved FAISS index and returns a retriever.
         """
-        if not os.path.exists(self.index_path):
+        if not os.path.exists(os.path.join(self.index_path, "index.faiss")):
             raise FileNotFoundError(f"No FAISS index found at {self.index_path}")
 
         self.db = FAISS.load_local(
@@ -101,12 +101,19 @@ class FAISSRetriever:
             embeddings = self.embeddings,
             allow_dangerous_deserialization = True
         )
-        print(f"✅ Loaded FAISS index from {os.path.abspath(self.index_path)}")
 
-    # === Retrieve relevant documents ===
+        print(f"Loaded FAISS index from {os.path.abspath(self.index_path)}")
+
+        # === Return retriever ===
+        return self.db.as_retriever(
+            search_kwargs = {
+                "k": 3
+            }
+        )
+
+    # === Retrieve relevant documents directly ===
     def retrieve(
-            self,
-            query: str,
+            self, query: str,
             top_k: int = 1
     ) -> List[Document]:
         """
